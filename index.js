@@ -1,5 +1,5 @@
-const contentLetterSrart_actived = "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé." //Lời mở đầu cho bức thư
-const mainContentLetter = "Gửi lời nhắn nhủ đến người bạn bạn yêu thương." //Nội dung của bức thư
+const contentLetterSrart_actived = "Heyy Banny HAPPY BIRTHDAY !" //Lời mở đầu cho bức thư
+const mainContentLetter = "Please, always keep this optimistic attitude for you and people around. I'm being inspired by your positivity. So, don't forget to spread it!!!" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
@@ -14,7 +14,7 @@ const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 document.querySelector(".sticker").addEventListener("click", function () { //Hiệu ứng gõ chữ cho phần mở đầu của bức thư
     document.querySelector(".contentLetter").innerHTML = "";
     document.querySelector(".startLetter").classList.add("active")
-    var audio = new Audio('musiccc.mp3');
+    var audio = new Audio('nhacnhacnhac.mp3');
     audio.play();
     setTimeout(() => {
         splitContentLetterSrart_actived.forEach((val, index) => {
